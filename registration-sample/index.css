@@ -1,0 +1,94 @@
+
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: linear-gradient(144deg, #020024, #21e630,#00d4ff );
+
+}
+.taas{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.cointainer{
+    max-width: 700px;
+    width: 100%;
+    background:white ;
+    padding: 25px 30px;
+    border-radius: 5px;
+
+}
+.cointainer .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.cointainer .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(144deg, #020024, #21e630,#00d4ff );
+
+}
+
+.cointainer form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+form .user-details .input-box{
+    
+    width: calc(100%/2 - 20px);
+    
+}
+
+ form .user-details .input-box .details {
+    font-weight: 500;
+    margin-bottom:5px;
+
+ }
+ form .user-details .input-box input{
+    height: 40px;
+    width: 100%;
+    outline: none;   
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+form .pet .pet-detail{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+
+}
+form .pet-detail::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(144deg, #020024, #21e630,#00d4ff );}
+
+
+    form .button input {
+    color: white;
+    background: linear-gradient(144deg, #020024, #21e630,#00d4ff );
+    margin-top: 5px;
+    font-size: 17px ;
+ }
+ .pet-details .right .option{
+    margin-top: none;
+
+ }
+

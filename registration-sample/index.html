@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css ">
+</head>
+
+     
+
+<body>
+    
+    <div class="cointainer">
+        <div class="taas">
+            <img src="./image/paw.jpg" alt="" id="pik" height="50">
+            <h1 im>VetCloud</h1>
+         </div>
+        <div class="title">Registration </div>
+        <form action="#">
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">Fullname</span>
+                <input type="text" placeholder="Enter your Name" required>
+              </div>
+              <div class="input-box">
+                <span class="details">UserName</span>
+                <input type="text" placeholder="Enter your User Name" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Email</span>
+                <input type="text" placeholder="Enter your Email" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Phone Number</span>
+                <input type="text" placeholder="Enter your Number" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Password</span>
+                <input type="text" placeholder="Enter your Password" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Confirm Password</span>
+                <input type="text" placeholder="Enter your Password" required>
+              </div>
+            </div>
+
+            <div class="pet">
+              <div class="pet-detail">Pet Detail </div>
+             
+                       <div class="checkbox-container">
+                           <input type="checkbox" id="singlePet">
+                           <label for="singlePet">Single Pet</label>
+                      </div>
+  
+                      <div class="checkbox-container">
+                 
+                          <input type="checkbox" id="multiplePet">
+                          <label for="multiplePet">Multiple Pets</label>
+                 
+                      </div>
+  
+                   
+                    <div id="singlePetInfo" style="display: none;">
+                        <input type="file" placeholder="Photo">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Breed">
+                        <input type="text" placeholder="Age">
+                        <input type="date" placeholder="Birthday">
+                    </div>
+                    <div id="multiplePetInfo" style="display: none;">
+                        <div id="pet1">
+                            <input type="file" placeholder="Photo">
+                            <input type="text" placeholder="Name">
+                            <input type="text" placeholder="Breed">
+                            <input type="text" placeholder="Age">
+                            <input type="date" placeholder="Birthday">
+                        </div>
+                        <div id="addPet">
+                            <button onclick="addPet()">+</button>
+                        </div>
+                    </div>
+                    <div class="button">
+                      <input type="submit" value="Register">
+                    </div>
+        
+              </div>
+
+            </div>
+                        
+                
+           
+
+            
+    
+        </form>
+
+     
+       
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+<footer></footer>
+</html>
